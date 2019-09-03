@@ -12,4 +12,10 @@ const float I_yy = 16.0e-6f;        // kg.m^2
 const float I_zz = 29.0e-6f;        // kg.m^2
 const float l = 33e-3f;             // m
 
+//parâmetros de ajuste de curva
+const float a2 = 9.56e-8f;
+const float a1 = 7.85e-5f;
+
+const float kl = 2.161e-8f;
+const float kd = 1.56e-10f;
 #endif
